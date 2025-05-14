@@ -1,0 +1,11 @@
+"use strict";this.default_r_tvffkgi=this.default_r_tvffkgi||{};(function(_){var window=this;
+try{
+_.Vh("pm_page_not_found_view");
+var d8n=function(a){a&1&&(_.G(0,"li"),_.J(1,"a",9),_.H())},e8n=class{constructor(){this.welcomeUrl=_.Eub.create().link().asString();this.cloudBrandName=_.Ti();this.consoleDocBaseUrl=_.qc(_.nDa());this.isTpc=_.Ui()}};e8n.\u0275fac=function(a){return new (a||e8n)};
+e8n.\u0275cmp=_.A({type:e8n,selectors:[["page-not-found"]],hostAttrs:[1,"cfc-flex-layout-column"],decls:14,vars:5,consts:()=>["URL introuvable","Nous n'avons pas trouv\u00e9 ce que vous recherchiez. Veuillez essayer l'un des liens ci-dessous.","Accueil \ufffd0\ufffd",["linkText","Documentation \ufffd0\ufffd"],[1,"cfc-space-first"],["cfc-list",""],["cfcTrackedLink","","track-type","errorAction","track-name","toConsole",3,"cfcRouterLink"],["cfcTrackedLink","","track-type","errorAction","track-name",
+"toMarketing",3,"cfc-external-link",6,"linkText"],[4,"ngIf"],"cfc-external-link;http://developers.google.com;cfcTrackedLink;;track-type;errorAction;track-name;toDeveloperDocs;linkText;Google for\u00a0Developers".split(";")],template:function(a,b){a&1&&(_.G(0,"cfc-single-panel-layout")(1,"cfc-panel-body")(2,"h2",4),_.N(3,0),_.H(),_.G(4,"p"),_.N(5,1),_.H(),_.G(6,"ul",5)(7,"li")(8,"a",6),_.N(9,2),_.H()(),_.G(10,"li")(11,"a",7),_.qg(12,3),_.H()(),_.D(13,d8n,2,0,"li",8),_.H()()());a&2&&(_.y(8),_.E("cfcRouterLink",
+b.welcomeUrl),_.y(),_.rg(b.cloudBrandName),_.sg(9),_.y(2),_.rg(b.cloudBrandName),_.sg(12),_.E("cfc-external-link",b.consoleDocBaseUrl),_.y(2),_.E("ngIf",!b.isTpc))},dependencies:[_.Vq,_.Tq,_.Dq,_.Cq,_.Ds,_.Bs,_.Js,_.Hs,_.zs,_.ys,_.Op,_.Qq,_.An,_.rn],encapsulation:2});_.f8n=class{};_.f8n.\u0275fac=function(a){return new (a||_.f8n)};_.f8n.\u0275mod=_.We({type:_.f8n,id:"pm_page_not_found_view"});_.f8n.\u0275inj=_.Pc({imports:[_.Ls([{path:"",component:e8n}])]});_.Mf(_.f8n,"pm_page_not_found_view");
+_.Wh();
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_tvffkgi);
+// Google Inc.

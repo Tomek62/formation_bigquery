@@ -1,0 +1,12 @@
+"use strict";this.default_r_tvffkgi=this.default_r_tvffkgi||{};(function(_){var window=this;
+try{
+_.Vh("whoAz");
+var XOp,YOp;XOp=function(a){if(a&1){const b=_.m();_.G(0,"cfc-message",6)(1,"cfc-message-text");_.N(2,0);_.H();_.G(3,"cfc-message-actions")(4,"button",7);_.P("click",function(){_.p(b);const c=_.Q();return _.t(c.retry())});_.N(5,1);_.H()()()}};YOp=function(a){if(a&1){const b=_.m();_.G(0,"cfc-message",8)(1,"cfc-message-text");_.N(2,2);_.H();_.G(3,"cfc-message-actions")(4,"button",7);_.P("click",function(){_.p(b);const c=_.Q();return _.t(c.dismiss())});_.N(5,3);_.H()()()}};
+_.NKc=class{constructor(){this.cdr=_.l(_.ln);this.store=_.l(_.Gk);this.onDestroy=new _.rf;this.showMutateError=this.showFetchError=!1}ngOnInit(){const a=this.store.select(_.MOp,{key:"mutate"}).pipe(_.Gf(this.onDestroy)),b=this.store.select(_.MOp,{key:"fetch"}).pipe(_.Gf(this.onDestroy));_.fe([a,b]).subscribe(([c,d])=>{this.showFetchError=d.isActive;this.showMutateError=!this.showFetchError&&c.isActive;this.cdr.markForCheck()})}dismiss(){this.store.dispatch((0,_.DOp)({key:"mutate"}));this.cdr.markForCheck()}retry(){this.store.dispatch((0,_.EOp)());
+this.cdr.markForCheck()}ngOnDestroy(){this.onDestroy.next()}};_.NKc.\u0275fac=function(a){return new (a||_.NKc)};
+_.NKc.\u0275cmp=_.A({type:_.NKc,selectors:[["cfc-purview-picker-starred-errors"]],decls:2,vars:2,consts:()=>["\u00c0 l'heure actuelle, les favoris ne fonctionnent pas.","R\u00e9essayer","Impossible de mettre \u00e0 jour les favoris. Veuillez r\u00e9essayer.","Fermer",["class"," cfctest-fetch-error-message","type","error",4,"ngIf"],["class"," cfctest-mutate-error-message","type","error",4,"ngIf"],["type","error",1,"cfctest-fetch-error-message"],["mat-button","","color","primary",3,"click"],["type",
+"error",1,"cfctest-mutate-error-message"]],template:function(a,b){a&1&&_.D(0,XOp,6,0,"cfc-message",4)(1,YOp,6,0,"cfc-message",5);a&2&&(_.E("ngIf",b.showFetchError),_.y(),_.E("ngIf",b.showMutateError))},dependencies:[_.An,_.rn,_.ds,_.cs,_.Yr,_.as,_.Pp,_.Kp,_.Mp,_.Lp,_.o9],encapsulation:2,changeDetection:0});
+_.Wh();
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_tvffkgi);
+// Google Inc.
