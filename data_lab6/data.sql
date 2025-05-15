@@ -1,3 +1,9 @@
+CREATE TABLE `your_project_id.your_dataset.us_delay_causes` (
+  flight_date DATE,
+  carrier STRING,
+  delay_cause STRING,
+  num_delays INT64
+);
 INSERT INTO `your_project_id.your_dataset.us_delay_causes` (flight_date, carrier, delay_cause, num_delays)
 VALUES
   (DATE_SUB(CURRENT_DATE(), INTERVAL 2 DAY), 'DL', 'Weather', 22),
